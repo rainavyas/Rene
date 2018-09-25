@@ -1,0 +1,48 @@
+
+.overall-container {
+  background-color: beige;
+}
+
+
+.title {
+  font-size: 3.5em;
+  text-align: center;
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+ .flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+ .right{
+  margin-left:2.5%; 
+}
+
+.left{
+  margin-left:2.5%; 
+}
+
+.subheading{
+  margin-left: 2.5%;
+  font-size: 2.5em 
+}
+
+.imageDes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 120px;
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+  animation:spin 10s linear infinite;
+  border-radius: 50%;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
